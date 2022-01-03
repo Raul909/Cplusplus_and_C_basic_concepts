@@ -564,8 +564,7 @@ Arithametic<T>::Arithametic(T a, T b)
 int main()
 {
     Arithametic<int> ar(10, 5)
-            cout
-        << ar.add();
+            cout << ar.add();
     Arithametic<float> ar1(1.5, 1.2);
     cout << ar1.add();
 }
